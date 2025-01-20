@@ -75,3 +75,6 @@ DerivedDataCache/*
 
 # Ignore the ParagonKwang folder
 Content/ParagonKwang/
+
+# Ignore the Frank_Pack folder
+Content/Frank_Pack/
