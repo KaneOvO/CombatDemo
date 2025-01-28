@@ -51,6 +51,39 @@ public:
 	FGameplayAttributeData MaxSP;
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxSP);
 
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData StunValue;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, StunValue);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData MaxStunValue;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxStunValue);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData StunRecoverTime;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, StunRecoverTime);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData DefenseCD;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, DefenseCD);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData PerfectSprintCD;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, PerfectSprintCD);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData PerfectSprintGain;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, PerfectSprintGain);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData DashCount;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, DashCount);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData MaxDashCount;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxDashCount);
+	
+	
 	
 	void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
 };
