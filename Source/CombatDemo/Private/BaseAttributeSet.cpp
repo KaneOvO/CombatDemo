@@ -23,10 +23,17 @@ void UBaseAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
         SetSkillCounts(FMath::Clamp(GetSkillCounts(), 0.0f, GetMaxSkillCounts()));
     }
 
-    if(Data.EvaluatedData.Attribute == GetSkillRecoverTimerAttribute())
+    if(Data.EvaluatedData.Attribute == GetStunValueAttribute())
     {
-        SetSkillRecoverTimer(FMath::Clamp(GetSkillRecoverTimer(), 0.0f, GetSkillRecoverTimer()));
+        SetStunValue(FMath::Clamp(GetStunValue(), 0.0f, GetMaxStunValue()));
     }
 
+    if(Data.EvaluatedData.Attribute == GetDashCountAttribute())
+    {
+        SetDashCount(FMath::Clamp(GetDashCount(), 0.0f, GetMaxDashCount()));
+    }
+    
+        
 
+    
 }
