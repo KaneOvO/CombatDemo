@@ -28,5 +28,12 @@ void UBaseAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
         SetStunValue(FMath::Clamp(GetStunValue(), 0.0f, GetMaxStunValue()));
     }
 
+    if(Data.EvaluatedData.Attribute == GetDashCountAttribute())
+    {
+        SetDashCount(FMath::Clamp(GetDashCount(), 0.0f, GetMaxDashCount()));
+    }
+    
+        
+
     
 }
