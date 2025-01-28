@@ -74,6 +74,14 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
 	FGameplayAttributeData PerfectSprintGain;
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, PerfectSprintGain);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData DashCount;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, DashCount);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData MaxDashCount;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxDashCount);
 	
 	
 	
