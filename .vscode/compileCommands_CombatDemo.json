@@ -1,57 +1,41 @@
 [
 	{
-		"file": "D:\\Code\\UE5\\CombatDemo\\Source\\CombatDemo\\CombatDemo.Build.cs",
+		"file": "D:\\Code\\UE\\CombatDemo\\Source\\CombatDemo\\CombatDemo.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Code\\UE5\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
+			"@D:\\Code\\UE\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
 		],
 		"directory": "D:\\UE_5.4\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Code\\UE5\\CombatDemo\\Source\\CombatDemo\\CombatDemo.cpp",
+		"file": "D:\\Code\\UE\\CombatDemo\\Source\\CombatDemo\\CombatDemo.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Code\\UE5\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
+			"@D:\\Code\\UE\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
 		],
 		"directory": "D:\\UE_5.4\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Code\\UE5\\CombatDemo\\Source\\CombatDemo\\CombatDemo.h",
+		"file": "D:\\Code\\UE\\CombatDemo\\Source\\CombatDemo\\CombatDemo.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Code\\UE5\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
+			"@D:\\Code\\UE\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
 		],
 		"directory": "D:\\UE_5.4\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Code\\UE5\\CombatDemo\\Source\\CombatDemo\\Private\\BaseAttributeSet.cpp",
+		"file": "D:\\Code\\UE\\CombatDemo\\Source\\CombatDemo\\Private\\BaseAttributeSet.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Code\\UE5\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
+			"@D:\\Code\\UE\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
 		],
 		"directory": "D:\\UE_5.4\\Engine\\Source"
 	},
 	{
-		"file": "D:\\Code\\UE5\\CombatDemo\\Source\\CombatDemo\\Private\\GEEC_Base.cpp",
+		"file": "D:\\Code\\UE\\CombatDemo\\Source\\CombatDemo\\Public\\BaseAttributeSet.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Code\\UE5\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
-		],
-		"directory": "D:\\UE_5.4\\Engine\\Source"
-	},
-	{
-		"file": "D:\\Code\\UE5\\CombatDemo\\Source\\CombatDemo\\Public\\BaseAttributeSet.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Code\\UE5\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
-		],
-		"directory": "D:\\UE_5.4\\Engine\\Source"
-	},
-	{
-		"file": "D:\\Code\\UE5\\CombatDemo\\Source\\CombatDemo\\Public\\GEEC_Base.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\Code\\UE5\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
+			"@D:\\Code\\UE\\CombatDemo\\.vscode\\compileCommands_CombatDemo\\CombatDemo.1.rsp"
 		],
 		"directory": "D:\\UE_5.4\\Engine\\Source"
 	}
