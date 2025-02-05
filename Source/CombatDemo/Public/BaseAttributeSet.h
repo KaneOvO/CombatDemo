@@ -32,6 +32,10 @@ public:
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxHP);
 
 	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
+	FGameplayAttributeData Damage;
+	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, Damage);
+
+	UPROPERTY(BlueprintReadOnly, Category = "BaseAttributeSet")
 	FGameplayAttributeData SkillCounts;
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, SkillCounts);
 
